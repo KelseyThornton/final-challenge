@@ -2,4 +2,4 @@
 
 The challenge is to create the following layout:
 
-![](./final-challenge.png)
+![](./final-challenge-specs.png)
