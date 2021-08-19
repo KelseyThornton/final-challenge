@@ -191,9 +191,10 @@ body {
 .nav__link {
   display: inline-block;
   font-family: var(--font-headings);
+  font-size: var(--fsz-nav);
   text-decoration: none;
   text-transform: uppercase;
-  color: inherit;
+  color: var(--clr-highlight);
 }
 
 /* The links in the footer */
@@ -228,11 +229,15 @@ body {
   padding-bottom: 1em;
 }
 
+.nav__button,
 .hero__link {
-  font-size: var(--fsz-hero-link);
   background-color: var(--clr-headings);
   padding: 0.5rem 2rem;
   border-radius: 100px;
+}
+
+.hero__link {
+  font-size: var(--fsz-hero-link);
 }
 
 .card__head {
@@ -305,30 +310,12 @@ body {
   list-style: none;
 }
 
-.nav__list--primary {
-  /* margin-top: 0.5em; */
-}
-
-.nav__list--secondary {
-  /* margin-top: 1.5em; */
-}
-
 .nav__item {
   margin-left: 0.6rem;
   margin-bottom: 0.6rem;
 }
 
-.nav__link {
-  color: var(--clr-highlight);
-  font-size: var(--fsz-nav);
-  font-family: var(--font-headings);
-  text-decoration: none;
-  text-transform: uppercase;
-  opacity: 0;
-  transition: opacity 250ms ease-in-out;
-}
-
-.nav__item:hover {
+.nav__link:hover {
   transform: scale(1.25, 1.25);
   transition: transform 250ms ease-in-out;
 }
