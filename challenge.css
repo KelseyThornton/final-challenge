@@ -44,8 +44,8 @@ Media queries
 
   --fsz-hero-head: 5.625rem; /* 2 */
   --fsz-hero-head-mobile: 3.5rem; /* 2 on narrow devices */
-  --fsz-hero-text: 1.5625rem; /* 3 */
-  --fsz-hero-link: 1.5625rem; /* 4 */
+  --fsz-hero-text: 1.5rem; /* 3 */
+  --fsz-hero-link: 1.5rem; /* 4 */
 
   --fsz-card-head: 1.875rem; /* 5, 7 */
   --fsz-card-text: 1.125rem; /* 5, 7 */
@@ -54,8 +54,8 @@ Media queries
   --fsz-content-text: 1.3125rem; /* 6 */
   --fsz-content-text-mobile: 1.25rem; /* 6 */
 
-  --fsz-footer-title: 1.5625rem; /* as specified in 8 */
-  /* --fsz-footer-title: 3.25rem; Mk. I eyeball */
+  --fsz-footer-title: 1.5rem; /* as specified in 8 */
+  --fsz-footer-title: 3.25rem; /* Mk. I eyeball */
   --fsz-footer-head: 1.3125rem; /* 9 */
   --fsz-footer-text: 1rem; /* as specified in 9 */
   /* --fsz-footer-text: 0.75rem; Mk. I eyeball */
