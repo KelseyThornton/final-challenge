@@ -54,7 +54,7 @@ Media queries
   --fsz-content-text: 1.3125rem; /* 6 */
   --fsz-content-text-mobile: 1.25rem; /* 6 */
 
-  --fsz-footer-title: 1.5rem; /* as specified in 8 */
+  --fsz-footer-title-mobile: 1.5rem; /* as specified in 8 */
   --fsz-footer-title: 3.25rem; /* Mk. I eyeball */
   --fsz-footer-head: 1.3125rem; /* 9 */
   --fsz-footer-text: 1rem; /* as specified in 9 */
@@ -261,7 +261,7 @@ body {
 }
 
 .footer__title {
-  font-size: var(--fsz-footer-title);
+  font-size: var(--fsz-footer-title-mobile);
   color: var(--clr-highlight);
   text-align: center;
 }
@@ -406,6 +406,10 @@ body {
 
   .content__text {
     font-size: var(--fsz-content-text);
+  }
+
+  .footer__title {
+    font-size: var(--fsz-footer-title);
   }
 
   .flex-3 {
