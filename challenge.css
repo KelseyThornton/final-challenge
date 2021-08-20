@@ -80,9 +80,9 @@ Media queries
  General styling of containers
  *****************************/
 
-/* for some reason this messes things up and produces a horizontal scrollbar */
 .wide-container {
-  width: 100vw; /* to be sure! */
+  /* width: 100vw; for some reason this messes things up and produces a horizontal scrollbar */
+  width: 100%; /* to be sure! */
 }
 
 .container {
